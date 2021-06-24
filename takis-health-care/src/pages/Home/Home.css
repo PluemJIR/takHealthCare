@@ -1,0 +1,46 @@
+.homeContainer {
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(35deg, rgba(15,128,141,1) 0%, rgba(7,168,165,1) 45%, rgba(211,231,233,1) 100%);
+    height: 100vh;
+}
+
+.loginContainer {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.loginContainer h1 {
+    color :'white';
+}
+
+.logoContainer {
+    width: 100%;
+    height: 200px;
+}
+
+.logoContainer img {
+    position: absolute;
+    z-index:-1;
+    width: 25%;
+    top: 9%;
+    left: 78%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .loginContainer {
+        width: 320px;
+    }
+    .logoContainer img {
+        visibility: hidden;
+    }
+}

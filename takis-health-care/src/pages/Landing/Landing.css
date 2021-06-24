@@ -1,0 +1,70 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif, Kanit;
+    background: linear-gradient(0deg, rgb(167, 199, 231) 0%, rgb(167, 199, 231) 100%);
+    height: 100%;
+}
+
+.landContainer {
+    height: 100%;
+}
+
+.healthGroup {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 3%);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.groupList {
+    position: relative;
+    transform: translate(1%, 0%);
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.group {
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.group img{
+    width: 80px;
+}
+
+.group:hover {
+    background-color: rgb(255, 204, 64);
+}
+
+.header {
+    display: flex;
+    align-items:center
+}
+
+.Navbar {
+    height: 30px;
+    text-align: end;
+}
+
+.Navbar p {
+    margin: 1vh 1vw;
+}

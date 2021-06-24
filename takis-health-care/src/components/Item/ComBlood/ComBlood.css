@@ -1,0 +1,42 @@
+.comBloodContainer {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comBloodContainer img {
+    width: 100px;
+}
+
+.inputSection {
+    /* border: 2px solid black; */
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputSection h2 {
+    font-family: Kanit;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.adviceLog {
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: scroll;
+    height: 100px;
+    padding-top: 5px;
+}
+
+.adviceLog li {
+    font-size: 16px;
+    font-family: 'Poppins', 'Kanit';
+    font-weight: 'regular';
+}
